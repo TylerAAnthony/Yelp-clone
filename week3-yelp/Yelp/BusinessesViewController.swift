@@ -27,6 +27,9 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 120
         
+        let searchBar = UISearchBar()
+        navigationItem.titleView = searchBar
+
         
        
         
